@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: journalApp
+
+  data:
+    mongodb:
+      uri: mongodb+srv://kanishqemailid_db_user:NywCH0i3cvDJN4Qm@cluster0.3xkf4cl.mongodb.net/?appName=Cluster0
+      auto-index-creation: true
+
+  main:
+    allow-bean-definition-overriding: true
