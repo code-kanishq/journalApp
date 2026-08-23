@@ -34,10 +34,9 @@
 
 	<properties>
 		<java.version>25</java.version>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
 		<sonar.token>${env.SONAR_TOKEN}</sonar.token>
 		<sonar.organization>code-kanishq</sonar.organization>
-		<sonar.host.url>https://soanrcloud.io</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
