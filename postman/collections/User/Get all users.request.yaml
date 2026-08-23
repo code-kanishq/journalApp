@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get all users
+url: localhost:8080/journal/admin/all-users
+method: GET
+auth:
+  type: basic
+  credentials:
+    username: ADMIN
+    password: Admin
+order: 1000

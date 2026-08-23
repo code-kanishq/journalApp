@@ -1,0 +1,20 @@
+$kind: http-request
+name: Add an entry
+description: ""
+url: localhost:8080/journal
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Evening\",\r
+
+    \    \"content\": \"I am happy. :)\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: Shyam
+    password: Shyam
+order: 3612154850190621

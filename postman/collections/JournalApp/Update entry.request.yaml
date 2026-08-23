@@ -1,0 +1,18 @@
+$kind: http-request
+name: Update entry
+description: ""
+url: localhost:8080/journal/id/6a68d1e6a75ae24524353a5a
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"I am feeling good. :)\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: Ram
+    password: Ram
+order: 4472068510216292

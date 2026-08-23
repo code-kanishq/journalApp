@@ -1,0 +1,11 @@
+$kind: http-request
+name: DeleteById
+description: ""
+url: localhost:8080/journal/id/6a68d5b4aeca20c18377f33b
+method: DELETE
+auth:
+  type: basic
+  credentials:
+    username: Shyam
+    password: Shyam
+order: 4438461058322335

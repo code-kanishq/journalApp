@@ -1,0 +1,19 @@
+$kind: http-request
+name: Create new Admin
+url: localhost:8080/admin/create-admin-users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"userName\": \"Admin\",\r
+
+    \    \"password\": \"Admin\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: Shyam
+    password: Shyam
+order: 1837120257788816

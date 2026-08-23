@@ -1,0 +1,19 @@
+$kind: http-request
+name: Create a new user
+url: localhost:8080/public/create-user
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"userName\": \"Shyam\",\r
+
+    \    \"password\": \"Shyam\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: Shyam
+    password: Shyam
+order: 5000

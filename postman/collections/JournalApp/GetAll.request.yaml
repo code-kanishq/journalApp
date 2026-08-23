@@ -1,0 +1,11 @@
+$kind: http-request
+name: GetAll
+description: ""
+url: localhost:8080/journal
+method: GET
+auth:
+  type: basic
+  credentials:
+    username: Shyam
+    password: Shyam
+order: 1784815116865

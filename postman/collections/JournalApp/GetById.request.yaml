@@ -1,0 +1,6 @@
+$kind: http-request
+name: GetById
+description: ""
+url: localhost:8080/journal/id/6a6214901841e874e4dda261
+method: GET
+order: 4418414961439786
